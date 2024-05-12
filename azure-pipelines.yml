@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Gehanagent'
+  vmImage: 'Gehanpool'
 
 variables:
   solution: '**/*.sln'
