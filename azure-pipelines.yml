@@ -40,4 +40,4 @@ steps:
     azureSubscription: 'MSDN Platforms Subscription(9a26c157-766d-4f46-8684-861804aef110)'
     appType: 'webApp'
     WebAppName: 'testappGehan'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
